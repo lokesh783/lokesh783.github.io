@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image:url("books.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar {
+    text-align: center;
+    padding: 20px;
+}
+ 
+.navbar a {
+    text-decoration: navy; 
+    color: #ffffff;
+    font-size: 40px;
+    font-family: harlow solid;
+    margin-right: 40px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition:0.3s;
+    display: block;
+}
+
+.navbar a:hover {
+    background: violet;
+    border: 2px solid #fff;
+    border-radius: 40%;
+}
+nav {
+    text-align: right;
+    padding: 20px
+}
+nav a {
+    text-decoration: rgb(167, 167, 173); 
+    color: rgb(254, 254, 255);
+    font-size: 15px;
+    font-family: Tahoma;
+    margin-right: 20px;
+    border: 2px solid transparent;
+    padding: 7px;
+    transition:0.3s;
+}
+nav a:hover {
+    background: purple;
+    border: 2px solid rgb(251, 251, 255);
+    border-radius: 40%;
+}
